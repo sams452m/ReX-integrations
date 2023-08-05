@@ -1,3 +1,10 @@
+## [0.115.2](https://github.com/YT-Advanced/ReX-integrations/compare/v0.115.1...v0.115.2) (2023-08-05)
+
+
+### Bug Fixes
+
+* **youtube/shorts:** Shorts shown in search feed ([f794d1e](https://github.com/YT-Advanced/ReX-integrations/commit/f794d1ec324b5e01940273e42d1cf551f0c55224))
+
 # [0.97.0](https://github.com/revanced/revanced-integrations/compare/v0.96.2...v0.97.0) (2023-02-14)
 
 
