@@ -28,9 +28,6 @@ public class Whitelist {
     private Whitelist() {
     }
 
-    public static boolean isChannelADSWhitelisted() {
-        return isWhitelisted(WhitelistType.ADS);
-    }
 
     public static boolean isChannelSBWhitelisted() {
         return isWhitelisted(WhitelistType.SPONSORBLOCK);

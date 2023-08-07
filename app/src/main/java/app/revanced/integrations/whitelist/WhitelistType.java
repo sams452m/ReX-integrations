@@ -6,7 +6,6 @@ import app.revanced.integrations.settings.SettingsEnum;
 import app.revanced.integrations.utils.SharedPrefHelper;
 
 public enum WhitelistType {
-    ADS(SharedPrefHelper.SharedPrefNames.REVANCED, SettingsEnum.ADS_WHITELIST.path),
     SPEED(SharedPrefHelper.SharedPrefNames.REVANCED, SettingsEnum.SPEED_WHITELIST.path),
     SPONSORBLOCK(SharedPrefHelper.SharedPrefNames.REVANCED, SettingsEnum.SB_WHITELIST.path);
 

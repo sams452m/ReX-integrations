@@ -415,9 +415,8 @@ public class ReVancedSettingsFragment extends PreferenceFragment {
             Activity activity = ReVancedSettingsFragment.this.getActivity();
             boolean isIncludedSB = PatchStatus.SponsorBlock();
             boolean isIncludedSPEED = PatchStatus.VideoSpeed();
-            boolean isIncludedADS = PatchStatus.VideoAds();
 
-            if (isIncludedSB || isIncludedSPEED || isIncludedADS) {
+            if (isIncludedSB || isIncludedSPEED) {
                 // Sponsorblock
                 if (isIncludedSB) {
                     Whitelist.setEnabled(WhitelistType.SPONSORBLOCK, SettingsEnum.SB_WHITELIST.getBoolean());
@@ -441,9 +440,9 @@ public class ReVancedSettingsFragment extends PreferenceFragment {
                 //True is disable
                 enableDisablePreferences(
                     true,
+                    SettingsEnum.OVERLAY_BUTTON_WHITELIST,
                     SettingsEnum.SPEED_WHITELIST,
-                    SettingsEnum.SB_WHITELIST,
-                    SettingsEnum.ADS_WHITELIST
+                    SettingsEnum.SB_WHITELIST
             );
             }
         } catch (Throwable th) {
