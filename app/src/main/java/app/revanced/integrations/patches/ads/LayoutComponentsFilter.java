@@ -104,6 +104,11 @@ public final class LayoutComponentsFilter extends Filter {
                 "timed_reaction"
         );
 
+        final var reminderBtn = new StringFilterGroup(
+                SettingsEnum.HIDE_REMINDER_BUTTON,
+                "set_reminder_button"
+        );
+
         this.pathFilterGroups.addAll(
                 albumCard,
                 audioTrackButton,
@@ -117,7 +122,8 @@ public final class LayoutComponentsFilter extends Filter {
                 medicalPanel,
                 movieShelf,
                 ticketShelf,
-                timedReactions
+                timedReactions,
+                reminderBtn
         );
 
         this.identifierFilterGroups.addAll(
