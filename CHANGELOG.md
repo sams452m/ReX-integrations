@@ -1,3 +1,11 @@
+# [0.116.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.115.2...v0.116.0) (2023-08-11)
+
+
+### Features
+
+* **youtube/layout:** Hide reminder button ([e756897](https://github.com/YT-Advanced/ReX-integrations/commit/e756897ed1f4ac195038ad3be183397530597ba2))
+* **youtube/spoof-player-parameters:** Readd short parameter ([f152cfc](https://github.com/YT-Advanced/ReX-integrations/commit/f152cfc239c9eec4c64f7346b983b72fe54e9adc))
+
 ## [0.115.2](https://github.com/YT-Advanced/ReX-integrations/compare/v0.115.1...v0.115.2) (2023-08-05)
 
 
