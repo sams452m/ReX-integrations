@@ -1,3 +1,10 @@
+## [0.116.1](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.0...v0.116.1) (2023-08-13)
+
+
+### Bug Fixes
+
+* **youtube/spoof-player-parameters:** Parameter do not applied on search videos ([50113a5](https://github.com/YT-Advanced/ReX-integrations/commit/50113a5dd707fc47d081a2ffdc7c44e3691ba8d1))
+
 # [0.116.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.115.2...v0.116.0) (2023-08-11)
 
 
