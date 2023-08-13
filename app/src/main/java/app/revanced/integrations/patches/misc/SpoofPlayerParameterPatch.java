@@ -24,16 +24,6 @@ public class SpoofPlayerParameterPatch {
             "YAHI", // Autoplay in feed
             "SAFg"  // Autoplay in scrim
     };
-    /**
-     * If you override player parameters when playing clips, the following issues arise.
-     * github.com/inotia00/ReVanced_Extended/issues/999
-     * <p>
-     * This is because a clip's player parameters contains important information used in the clip, such as the start time of the clip, the length of the clip, and whether or not the clip has auto-repeat.
-     * Therefore, in the clip, the PLAYER_PARAMETER_SHORTS parameter must be prepend while maintaining the clip's player parameters.
-     * <p>
-     * The general player parameters size does not exceed 26, but the size of the clip's player parameters exceeds 26, so we can identify whether the currently playing video is a clip or not.
-     */
-    private static final int PLAYER_PARAMETERS_MAX_LENGTH = 26;
 
     /**
      * On app first start, the first video played usually contains a single non-default window setting value
@@ -89,11 +79,6 @@ public class SpoofPlayerParameterPatch {
             if (!SettingsEnum.SPOOF_PLAYER_PARAMETER.getBoolean() || originalValue.startsWith(PLAYER_PARAMETER_SHORTS)) {
                 return originalValue;
             }
-
-            if (originalValue.length() > PLAYER_PARAMETERS_MAX_LENGTH)
-                return PLAYER_PARAMETER_SHORTS + originalValue;
-
-            LogHelper.printDebug(SpoofPlayerParameterPatch.class, "Original protobuf parameter value: " + originalValue);
 
             final String playerParameters = SettingsEnum.SPOOF_PLAYER_PARAMETER_TYPE.getBoolean()
                 ? PLAYER_PARAMETER_INCOGNITO
