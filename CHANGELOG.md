@@ -1,3 +1,11 @@
+## [0.116.2](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.1...v0.116.2) (2023-08-14)
+
+
+### Bug Fixes
+
+* **youtube/hide-suggestion-shelf:** Not hidden on tablet layout ([d60dd2c](https://github.com/YT-Advanced/ReX-integrations/commit/d60dd2ca8f5cdbdbb952726a48fb7f1ef57d313a))
+* **youtube/save-video-quality:** Video Quality Preset not worked ([672e430](https://github.com/YT-Advanced/ReX-integrations/commit/672e430e4419d1c226ad0591119964e461821401))
+
 ## [0.116.1](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.0...v0.116.1) (2023-08-13)
 
 
