@@ -1,3 +1,17 @@
+# [0.117.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.2...v0.117.0) (2023-08-19)
+
+
+### Bug Fixes
+
+* Hide new product type ([004a5b8](https://github.com/YT-Advanced/ReX-integrations/commit/004a5b8efc60ddbbadaad02d3b7a7268fd6f47f9))
+* **youtube/litho-filter-patch:** `Proto buffer` is null sometimes ([ffea683](https://github.com/YT-Advanced/ReX-integrations/commit/ffea68389c6b4d1b36f0e274b0037e97f5ff00bc))
+
+
+### Features
+
+* **youtube/hide-button-container:** Hide Action Button ([689e5e9](https://github.com/YT-Advanced/ReX-integrations/commit/689e5e99b222e785fc0586c550a5e6860556430d))
+* **youtube:** Alternative video thumbnails ([5f775a5](https://github.com/YT-Advanced/ReX-integrations/commit/5f775a57779f8d41b39ebcdfe5d3ba92e2e506f5))
+
 ## [0.116.2](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.1...v0.116.2) (2023-08-14)
 
 
