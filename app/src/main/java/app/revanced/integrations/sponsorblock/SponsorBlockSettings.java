@@ -77,6 +77,27 @@ public class SponsorBlockSettings {
             SettingsEnum.SB_UUID.saveValue(userID);
 
             SettingsEnum.SB_IS_VIP.saveValue(settingsJson.getBoolean("isVip"));
+
+            // We don't have these setting in SponsorBlock browser extension, so if we import setting from
+            // browser extension, we will have JSONException. This problem can easily solved by checking before saveValue
+            // https://github.com/ReVanced/revanced-patches/issues/2848#issuecomment-1685319284
+
+            if (settingsJson.has("voting")) {
+                SettingsEnum.SB_VOTING_ENABLED.saveValue(settingsJson.getBoolean("voting"));
+            }
+            if (settingsJson.has("summitSegment")) {
+                SettingsEnum.SB_CREATE_NEW_SEGMENT_ENABLED.saveValue(settingsJson.getBoolean("summitSegment"));
+            }
+            if (settingsJson.has("segmentStep")) {
+                SettingsEnum.SB_ADJUST_NEW_SEGMENT_STEP.saveValue(settingsJson.getInt("segmentStep"));
+            }
+            if (settingsJson.has("compactskip")) {
+                SettingsEnum.SB_USE_COMPACT_SKIP_BUTTON.saveValue(settingsJson.getBoolean("compactskip"));
+            }
+            if (settingsJson.has("autohideskip")) {
+                SettingsEnum.SB_AUTO_HIDE_SKIP_BUTTON.saveValue(settingsJson.getBoolean("autohideskip"));
+            }
+            
             SettingsEnum.SB_SHOW_TOAST_ON_SKIP.saveValue(!settingsJson.getBoolean("dontShowNotice"));
             SettingsEnum.SB_TRACK_SKIP_COUNT.saveValue(settingsJson.getBoolean("trackViewCount"));
 
@@ -142,6 +163,11 @@ public class SponsorBlockSettings {
             json.put("userID", SettingsEnum.SB_UUID.getString());
             json.put("isVip", SettingsEnum.SB_IS_VIP.getBoolean());
             json.put("serverAddress", SettingsEnum.SB_API_URL.getString());
+            json.put("voting", SettingsEnum.SB_VOTING_ENABLED.getBoolean());
+            json.put("summitSegment", SettingsEnum.SB_CREATE_NEW_SEGMENT_ENABLED.getBoolean());
+            json.put("segmentStep", SettingsEnum.SB_ADJUST_NEW_SEGMENT_STEP.getInt());
+            json.put("compactskip", SettingsEnum.SB_USE_COMPACT_SKIP_BUTTON.getBoolean());
+            json.put("autohideskip", SettingsEnum.SB_AUTO_HIDE_SKIP_BUTTON.getBoolean());
             json.put("dontShowNotice", !SettingsEnum.SB_SHOW_TOAST_ON_SKIP.getBoolean());
             json.put("showTimeWithSkips", SettingsEnum.SB_SHOW_TIME_WITHOUT_SEGMENTS.getBoolean());
             json.put("minDuration", SettingsEnum.SB_MIN_DURATION.getFloat());
