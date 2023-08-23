@@ -1,3 +1,10 @@
+## [0.117.1](https://github.com/YT-Advanced/ReX-integrations/compare/v0.117.0...v0.117.1) (2023-08-23)
+
+
+### Bug Fixes
+
+* **SponsorBlock:** Some setting cannot be imported/exported ([33c713e](https://github.com/YT-Advanced/ReX-integrations/commit/33c713e8968becba553b4104b03a95d6c2f00e26))
+
 # [0.117.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.116.2...v0.117.0) (2023-08-19)
 
 
