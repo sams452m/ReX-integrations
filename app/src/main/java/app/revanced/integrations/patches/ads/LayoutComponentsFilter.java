@@ -109,6 +109,12 @@ public final class LayoutComponentsFilter extends Filter {
                 "set_reminder_button"
         );
 
+        final var qualityFooter = new StringFilterGroup(
+                SettingsEnum.HIDE_PLAYER_FLYOUT_PANEL_QUALITY_FOOTER,
+                "|divider.eml",
+                "quality_sheet_footer"
+        );
+
         this.pathFilterGroups.addAll(
                 albumCard,
                 audioTrackButton,
@@ -123,7 +129,8 @@ public final class LayoutComponentsFilter extends Filter {
                 movieShelf,
                 ticketShelf,
                 timedReactions,
-                reminderBtn
+                reminderBtn,
+                qualityFooter
         );
 
         this.identifierFilterGroups.addAll(
