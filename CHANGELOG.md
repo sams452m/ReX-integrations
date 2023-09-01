@@ -1,3 +1,18 @@
+# [0.118.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.117.3...v0.118.0) (2023-09-01)
+
+
+### Bug Fixes
+
+* build fails ([dd12563](https://github.com/YT-Advanced/ReX-integrations/commit/dd12563522e58d3d56a14a433222d897225d5951))
+* Emoji picker in comment section not hidden ([1c16b3e](https://github.com/YT-Advanced/ReX-integrations/commit/1c16b3ec5e125a74d4e37f12ba22d4c5140ca900))
+* it should work now ([c030a90](https://github.com/YT-Advanced/ReX-integrations/commit/c030a905fff6f53b77286b047f59a8c654fd7c6d))
+
+
+### Features
+
+* **youtube/layout:** Hide quality layout footer ([06e4626](https://github.com/YT-Advanced/ReX-integrations/commit/06e462601e2d299ec4a1ed763f763533161ac836))
+* **youtube/layout:** Hide quality layout footer ([399f677](https://github.com/YT-Advanced/ReX-integrations/commit/399f677cdd41967a90f5ca7555a0b4e3332b166c))
+
 ## [0.117.3](https://github.com/YT-Advanced/ReX-integrations/compare/v0.117.2...v0.117.3) (2023-08-28)
 
 
