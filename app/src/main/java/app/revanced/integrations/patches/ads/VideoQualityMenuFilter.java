@@ -12,7 +12,7 @@ public final class VideoQualityMenuFilter extends Filter {
         final var oldqualityflyout = new StringFilterGroup(
                 SettingsEnum.ENABLE_OLD_QUALITY_LAYOUT,
                 "quick_quality_sheet_content.eml-js"
-        ));
+        );
 
         final var qualityFooter = new StringFilterGroup(
                 SettingsEnum.HIDE_PLAYER_FLYOUT_PANEL_QUALITY_FOOTER,
