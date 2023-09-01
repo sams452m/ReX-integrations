@@ -79,6 +79,7 @@ public enum SettingsEnum {
     HIDE_PLAYER_FLYOUT_PANEL_MORE("revanced_hide_player_flyout_panel_more_info", BOOLEAN, FALSE),
     HIDE_PLAYER_FLYOUT_PANEL_NERDS("revanced_hide_player_flyout_panel_stats_for_nerds", BOOLEAN, FALSE),
     HIDE_PLAYER_FLYOUT_PANEL_QUALITY("revanced_hide_player_flyout_panel_qualities", BOOLEAN, FALSE),
+    HIDE_PLAYER_FLYOUT_PANEL_QUALITY_FOOTER("revanced_hide_player_flyout_panel_quality_footer", BOOLEAN, FALSE),
     HIDE_PLAYER_FLYOUT_PANEL_REPORT("revanced_hide_player_flyout_panel_report", BOOLEAN, FALSE),
     HIDE_PLAYER_FLYOUT_PANEL_SPEED("revanced_hide_player_flyout_panel_speed", BOOLEAN, FALSE),
     HIDE_PLAYER_FLYOUT_PANEL_WATCH_IN_VR("revanced_hide_player_flyout_panel_watch_in_vr", BOOLEAN, FALSE),
