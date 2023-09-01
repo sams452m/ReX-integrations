@@ -34,6 +34,6 @@ public final class VideoQualityMenuFilter extends Filter {
         }
         isVideoQualityMenuVisible = true;
 
-        return false;
+        return super.isFiltered(path, identifier, allValue, protobufBufferArray, matchedList, matchedGroup, matchedIndex);
     }
 }
