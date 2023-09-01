@@ -111,7 +111,7 @@ public final class LayoutComponentsFilter extends Filter {
 
         final var qualityFooter = new StringFilterGroup(
                 SettingsEnum.HIDE_PLAYER_FLYOUT_PANEL_QUALITY_FOOTER,
-                "|ContainerType|divider.eml",
+                "|divider.eml",
                 "quality_sheet_footer"
         );
 
