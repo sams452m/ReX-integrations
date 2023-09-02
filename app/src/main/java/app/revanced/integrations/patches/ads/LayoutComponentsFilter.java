@@ -114,6 +114,10 @@ public final class LayoutComponentsFilter extends Filter {
                 "quality_sheet_footer",
                 "|divider.eml|"
         );
+        final var qualityFooter = new StringFilterGroup(
+                SettingsEnum.HIDE_COMPOSER_STATICS,
+                "composer_statics"
+        );
 
         this.pathFilterGroups.addAll(
                 albumCard,
@@ -131,6 +135,8 @@ public final class LayoutComponentsFilter extends Filter {
                 timedReactions,
                 reminderBtn,
                 qualityFooter
+                reminderBtn,
+                composerStatics,
         );
 
         this.identifierFilterGroups.addAll(
