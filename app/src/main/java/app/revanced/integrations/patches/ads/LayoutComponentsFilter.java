@@ -135,7 +135,7 @@ public final class LayoutComponentsFilter extends Filter {
                 timedReactions,
                 reminderBtn,
                 qualityFooter,
-                composerStatics
+                composerStatic
         );
 
         this.identifierFilterGroups.addAll(
