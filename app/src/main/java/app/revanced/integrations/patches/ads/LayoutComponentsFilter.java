@@ -133,9 +133,9 @@ public final class LayoutComponentsFilter extends Filter {
                 movieShelf,
                 ticketShelf,
                 timedReactions,
-                reminderBtn,
+                reminderBtn;
                 qualityFooter
-                reminderBtn,
+                reminderBtn;
                 composerStatics
         );
 
