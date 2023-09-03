@@ -123,7 +123,6 @@ public final class LayoutComponentsFilter extends Filter {
                 albumCard,
                 audioTrackButton,
                 channelMemberShelf,
-                composerStatics,
                 custom,
                 expandableMetadata,
                 feedSurvey,
@@ -135,7 +134,8 @@ public final class LayoutComponentsFilter extends Filter {
                 ticketShelf,
                 timedReactions,
                 reminderBtn,
-                qualityFooter
+                qualityFooter,
+                composerStatics
         );
 
         this.identifierFilterGroups.addAll(
