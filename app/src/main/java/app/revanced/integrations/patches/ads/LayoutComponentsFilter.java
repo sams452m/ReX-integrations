@@ -136,7 +136,7 @@ public final class LayoutComponentsFilter extends Filter {
                 reminderBtn,
                 qualityFooter
                 reminderBtn,
-                composerStatics,
+                composerStatics
         );
 
         this.identifierFilterGroups.addAll(
