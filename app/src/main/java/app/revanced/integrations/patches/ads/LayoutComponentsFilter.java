@@ -114,7 +114,7 @@ public final class LayoutComponentsFilter extends Filter {
                 "quality_sheet_footer",
                 "|divider.eml|"
         );
-        final var qualityFooter = new StringFilterGroup(
+        final var composerStatics = new StringFilterGroup(
                 SettingsEnum.HIDE_COMPOSER_STATICS,
                 "composer_statics"
         );
