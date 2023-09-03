@@ -134,8 +134,8 @@ public final class LayoutComponentsFilter extends Filter {
                 movieShelf,
                 ticketShelf,
                 timedReactions,
-                reminderBtn;
-                qualityFooter
+                reminderBtn,
+                qualityFooter,
         );
 
         this.identifierFilterGroups.addAll(
