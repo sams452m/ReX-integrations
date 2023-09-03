@@ -115,8 +115,8 @@ public final class LayoutComponentsFilter extends Filter {
                 "|divider.eml|"
         );
         final var composerStatics = new StringFilterGroup(
-                SettingsEnum.HIDE_COMPOSER_STATICS,
-                "composer_statics"
+                SettingsEnum.HIDE_COMPOSER_STATIC,
+                "composer_static"
         );
 
         this.pathFilterGroups.addAll(
