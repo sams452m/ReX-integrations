@@ -1,3 +1,10 @@
+# [0.119.0](https://github.com/sams452m/ReX-integrations/compare/v0.118.2...v0.119.0) (2023-09-03)
+
+
+### Features
+
+* Comment Composer ([a3b36c7](https://github.com/sams452m/ReX-integrations/commit/a3b36c73bea16f8164e1ac449cdd8fa732fcdc93))
+
 # [0.118.0](https://github.com/YT-Advanced/ReX-integrations/compare/v0.117.3...v0.118.0) (2023-09-01)
 
 
