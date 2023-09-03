@@ -135,7 +135,6 @@ public final class LayoutComponentsFilter extends Filter {
                 timedReactions,
                 reminderBtn;
                 qualityFooter
-                reminderBtn;
                 composerStatics
         );
 
